@@ -35,7 +35,7 @@ $ npm install -g generator-deepexi-spring-cloud
 通过交互模式创建
 
 ```bash
-$ mdir {your_project_name}
+$ mkdir {your_project_name}
 $ cd {your_project_name}
 $ yo deepexi-spring-cloud
 ```
@@ -43,7 +43,7 @@ $ yo deepexi-spring-cloud
 或者使用命令行模式创建
 
 ```bash
-$ mdir {your_project_name}
+$ mkdir {your_project_name}
 $ cd {your_project_name}
 $ yo deepexi-spring-cloud -c
 ```
@@ -74,7 +74,7 @@ $ yo deepexi-spring-cloud --help
 |消息队列|✅RabbitMQ|☑️RocketMQ|
 |任务调度|☑️ES Job|☑️XXL-Job|☑️SiaTask|☑️Quartz|
 |RDBMS|✅MySQL|☑️PG SQL|☑️SQL Server|
-|NoSQL|✅Redis|☑️MongoDB|
+|NoSQL|✅Redis|✅MongoDB|
 |连接池|✅Druid|☑️Hikari|
 |认证机制|✅JWT|
 |权限控制|✅Shiro|☑️Spring Security|
@@ -91,6 +91,7 @@ $ yo deepexi-spring-cloud --help
 |WebSocket|☑️Spring Boot Websocket|
 |Bean转换器|✅SpringMVC Converter|☑️MapStruct|
 |DeepEXI产品|☑️sPaaS|
+|其它|✅️Prometheus|
 
 ### 固有项
 

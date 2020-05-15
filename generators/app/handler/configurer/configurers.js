@@ -25,7 +25,10 @@ const types = [
   'cache',
   'jsonParser',
   'log',
-  'apm'
+  'apm',
+  'mongodb',
+  'prometheus',
+  'docker'
 ];
 
 configurers.receive = (event, args) => {
